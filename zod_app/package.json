@@ -1,0 +1,27 @@
+{
+  "name": "zod_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/supertest": "^6.0.2",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2"
+  }
+}
