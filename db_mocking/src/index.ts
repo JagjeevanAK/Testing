@@ -26,7 +26,7 @@ app.post('/sum',async (req,res): Promise<any>=>{
             type: RequestType.sum
         }
     })
-    res.status(200).json({ result: ans, id: request.a });
+    res.status(200).json({ result: ans, id: request.id });
 })
 
 app.post('/multiply',async (req,res): Promise<any>=>{
