@@ -21,12 +21,12 @@ app.post('/sum',async (req,res): Promise<any>=>{
     const request =await prismaClient.request.create({
         data: {
             a: a,
-            b: a,
+            b: b,
             answer: ans,
             type: RequestType.sum
         }
     })
-    res.status(200).json({ result: ans, id: request.id });
+    res.status(200).json({ result: ans, id: request.a });
 })
 
 app.post('/multiply',async (req,res): Promise<any>=>{
